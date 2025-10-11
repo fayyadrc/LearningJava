@@ -20,8 +20,8 @@ public class Driver {
         }
         
         //Task III: Names of all the books by an author
-        String authorName = "J.K. Rowling";
-        List<String> authorBooks = Book.getBooksByAuthor(books, authorName);
+        String authorName1 = "J.K. Rowling";
+        List<String> authorBooks = Book.getBooksByAuthor(books, authorName1);
 
         for (String book : authorBooks) {
             System.out.println(book);
@@ -35,8 +35,8 @@ public class Driver {
         }
 
         //Task V: Price of all the books by an author
-        String authorName = "J.K. Rowling";
-        List<String> priceBooks = Book.getBooksAndPricebyAuthor(books, authorName);
+        String authorName2 = "J.K. Rowling";
+        List<String> priceBooks = Book.getBooksAndPricebyAuthor(books, authorName2);
         for (String book : priceBooks){
           System.out.println(book);
         }
